@@ -1,0 +1,315 @@
+html,
+
+@media screen and (max-width: 575px) {
+  p, ul, .question, .quote, .video-container {
+    min-width: 40%;
+  }
+}
+
+@media screen and (min-width: 575px) {
+  p, ul, .question {
+    max-width: 600px;
+  }
+  .quote {
+    max-width: 490px;
+  }
+  .video-container {
+    max-width: 60%;
+    min-width: 600px;
+  }
+  .small-img {
+    max-width: 60%;
+  }
+}
+
+@media screen and (max-width: 725px) {
+  .index {
+    font-size: 8.5em !important;
+    line-height: 115px !important;
+  }
+}
+
+body {
+  margin: 0px;
+  margin-bottom: 50px;
+  max-width: 100vw;
+}
+
+.container {
+  margin: 20px 35px 60px 35px;
+}
+
+.nav {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  position: absolute;
+}
+
+.nav a {
+  margin-right: 20px;
+}
+
+.nav a, .header a, .prev, .next {
+  text-decoration: none;
+  color: black;
+}
+
+.header {
+  font-family: 'Bebas Neue', sans-serif;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.index {
+  font-weight: 600;
+  font-size: 11.5em;
+  line-height: 145px;
+  margin-top: 50px;
+  margin-bottom: 140px;
+  max-width: 90%;
+  letter-spacing: 1px;
+}
+
+.one:hover {
+  color: #17A1A6;
+}
+
+.two:hover {
+  color: #C98467;
+}
+
+.three:hover {
+  color: #659D2A;
+}
+
+.four:hover {
+  color: #177EA1;
+}
+
+.five:hover {
+  color: #5A89D7;
+}
+
+.tooltip {
+  position: relative;
+}
+
+.tooltiptext {
+  font-family: 'Inter';
+  visibility: hidden;
+  width: 100%;
+  color: dimgray;
+  text-align: center;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  text-transform: none !important;
+  letter-spacing: 0 !important;
+
+  /* Position the tooltip */
+  top: 90%;
+  margin-top: -1%;
+  left: 50%;
+  margin-left: -50%;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+/*CHANGE BODY COLOR ON HOVER FOR LINK CLASS*/
+
+/*.one:hover:before {
+  content: '';
+  position: fixed;
+  display: block;
+  top: 0; bottom: 0; left: 0; right: 0;
+  z-index: -1;
+  background-color: #17A1A6;
+}
+
+.two:hover:before {
+  content: '';
+  position: fixed;
+  display: block;
+  top: 0; bottom: 0; left: 0; right: 0;
+  z-index: -1;
+  background-color: #C98467;
+}
+
+.three:hover:before {
+  content: '';
+  position: fixed;
+  display: block;
+  top: 0; bottom: 0; left: 0; right: 0;
+  z-index: -1;
+  background-color: #659D2A;
+}
+
+.four:hover:before {
+  content: '';
+  position: fixed;
+  display: block;
+  top: 0; bottom: 0; left: 0; right: 0;
+  z-index: -1;
+  background-color: #177EA1;
+}
+
+.five:hover:before {
+  content: '';
+  position: fixed;
+  display: block;
+  top: 0; bottom: 0; left: 0; right: 0;
+  z-index: -1;
+  background-color: #5A89D7;
+}*/
+
+.title {
+  font-size: 7.5em;
+  margin-top: 15px;
+}
+
+.subheader {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: -20px;
+  padding-bottom: 15px;
+  color: dimgray;
+  text-align: center;
+} 
+
+.info {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 15px;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.author, .date {
+  display: inline-block;
+}
+
+.page {
+  padding-top: 35px;
+  padding-bottom: 50px;   
+}
+
+.question {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 35px auto 35px auto;
+}
+
+.quote {
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+  margin: 55px auto 55px auto;
+}
+
+.body-link {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: black;
+}
+
+p {
+  font-family: 'Lora';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 35px auto 35px auto; 
+}
+
+ul {
+  font-family: 'Lora';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  column-count: 2;
+  column-gap: 10px;
+  column-width: 60px;
+  margin-top: -10px !important;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+}
+
+li {
+  margin-left: 90px;
+}
+
+.video-container {
+  margin: auto;
+}
+
+.video {
+  padding: 56.25% 0 0 0;
+  position: relative;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+img {
+	display: block;
+  margin: 60px auto 60px auto;
+}
+
+.header-img {
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+.small-img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.small-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.prev, .next {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.prev {
+  float: left;
+}
+
+.next {
+  float: right;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.no-break {
+  column-count: 1;
+}
+
+.break {
+  break-before: column;
+}
