@@ -30,8 +30,8 @@
 
 @media screen and (max-width: 725px) {
   .index, .header, .title {
-    font-size: 5em !important;
-    line-height: 70px !important;
+    font-size: 4em !important;
+    line-height: 55px !important;
   }
 }
 
